@@ -1,0 +1,250 @@
+// Your custom styles
+
+/* Browser Specific codes */
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Browser Specific codes */
+
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+@for $i from 0 through 100 {
+  .w-#{$i} {
+    width: round(percentage(calc($i/100))) !important;
+  }
+
+  .h-#{$i} {
+    height: round(percentage(calc($i/100))) !important;
+  }
+}
+
+
+@for $i from 0 through 2000 {
+  .w-#{$i}px {
+    width: #{$i}px !important;
+  }
+
+  .h-#{$i}px {
+    height: #{$i}px !important;
+  }
+}
+
+@for $i from 0 through 100 {
+  .top-#{$i} {
+    top: round(percentage(calc($i/100))) !important;
+  }
+
+  .left-#{$i} {
+    left: round(percentage(calc($i/100))) !important;
+  }
+
+  .right-#{$i} {
+    right: round(percentage(calc($i/100))) !important;
+  }
+
+  .bottom-#{$i} {
+    bottom: round(percentage(calc($i/100))) !important;
+  }
+}
+
+@for $i from 0 through 2000 {
+  .top-#{$i}px {
+    top: #{$i}px !important;
+  }
+
+  .left-#{$i}px {
+    left: #{$i}px !important;
+  }
+
+  .right-#{$i}px {
+    right: #{$i}px !important;
+  }
+
+  .bottom-#{$i}px {
+    bottom: #{$i}px !important;
+  }
+}
+
+@for $i from 0 through 1000 {
+  .p-#{$i}px {
+    padding: #{$i}px !important;
+  }
+
+  .px-#{$i}px {
+    padding-left: #{$i}px !important;
+    padding-right: #{$i}px !important;
+  }
+
+  .py-#{$i}px {
+    padding-top: #{$i}px !important;
+    padding-bottom: #{$i}px !important;
+  }
+
+  .pr-#{$i}px {
+    padding-right: #{$i}px !important;
+  }
+
+  .pl-#{$i}px {
+    padding-left: #{$i}px !important;
+  }
+
+  .pt-#{$i}px {
+    padding-top: #{$i}px !important;
+  }
+
+  .pb-#{$i}px {
+    padding-bottom: #{$i}px !important;
+  }
+
+  .m-#{$i}px {
+    margin: #{$i}px !important;
+  }
+
+  .mx-#{$i}px {
+    margin-right: #{$i}px !important;
+    margin-left: #{$i}px !important;
+  }
+
+  .my-#{$i}px {
+    margin-top: #{$i}px !important;
+    margin-bottom: #{$i}px !important;
+  }
+
+  .mr-#{$i}px {
+    margin-right: #{$i}px !important;
+  }
+
+  .mt-#{$i}px {
+    margin-top: #{$i}px !important;
+  }
+
+  .ml-#{$i}px {
+    margin-left: #{$i}px !important;
+  }
+
+  .mb-#{$i}px {
+    margin-bottom: #{$i}px !important;
+  }
+}
+
+@for $i from 0 through 100 {
+  .font-#{$i} {
+    font-size: #{$i}px !important;
+  }
+
+  .lspacing-#{$i} {
+    letter-spacing: #{$i}px !important;
+  }
+}
+
+@for $i from 0 through 100 {
+  .zindex-#{$i} {
+    z-index: #{$i} !important;
+  }
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.translate-center {
+  transform: translate(-50%, -50%);
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.align-items-end {
+  align-items: end;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
